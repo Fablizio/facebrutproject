@@ -1,0 +1,17 @@
+@import "./../../libs/variables.scss"
+
+
+.Footer{
+    
+    padding: 20px $sidepaddings 50px;
+    
+    hr {
+        border: 0;
+        border-top: 1px solid #aaa;
+    }
+    
+    p{
+        text-align: center;
+    }
+}
+

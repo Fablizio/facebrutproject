@@ -1,4 +1,5 @@
 import styles from "./MessagePreview.module.scss";
+import { TimeSet } from "../date";
 
 const MessagePreview = (props) => {
   const data = props.data || {
@@ -7,12 +8,13 @@ const MessagePreview = (props) => {
     sender: "User",
   };
 
+
   return (
     <div className={styles.message}>
       <h5>{data.sender}</h5>
       <p>
         <small>
-          {data.date.toLocaleDateString()} - {data.date.toLocaleTimeString()}
+          <TimeSet distance={data.date} /> 
         </small>
       </p>
       <p>{data.text}</p>

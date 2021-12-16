@@ -1,4 +1,6 @@
 import styles from "./Post.module.scss";
+import { TimeSet } from "../date";
+
 
 const Post = (props) => {
   const data = props.data || {
@@ -17,12 +19,14 @@ const Post = (props) => {
   //   }
   // }
 
+
+
   return (
     <article className={styles.post}>
       <h3>{data.author}</h3>
       <p>
         <small>
-          {data.date.toLocaleDateString()} - {data.date.toLocaleTimeString()}
+        <TimeSet distance={data.date} /> 
         </small>
       </p>
       <p>{data.text}</p>

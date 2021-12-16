@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Fablizio/facebrutproject/static/css/main.c559fbf7.chunk.css",
+    "main.js": "/Fablizio/facebrutproject/static/js/main.db999ff7.chunk.js",
+    "main.js.map": "/Fablizio/facebrutproject/static/js/main.db999ff7.chunk.js.map",
+    "runtime-main.js": "/Fablizio/facebrutproject/static/js/runtime-main.73e533a0.js",
+    "runtime-main.js.map": "/Fablizio/facebrutproject/static/js/runtime-main.73e533a0.js.map",
+    "static/js/2.1a19b3b2.chunk.js": "/Fablizio/facebrutproject/static/js/2.1a19b3b2.chunk.js",
+    "static/js/2.1a19b3b2.chunk.js.map": "/Fablizio/facebrutproject/static/js/2.1a19b3b2.chunk.js.map",
+    "static/js/3.aa2a2196.chunk.js": "/Fablizio/facebrutproject/static/js/3.aa2a2196.chunk.js",
+    "static/js/3.aa2a2196.chunk.js.map": "/Fablizio/facebrutproject/static/js/3.aa2a2196.chunk.js.map",
+    "index.html": "/Fablizio/facebrutproject/index.html",
+    "static/css/main.c559fbf7.chunk.css.map": "/Fablizio/facebrutproject/static/css/main.c559fbf7.chunk.css.map",
+    "static/js/2.1a19b3b2.chunk.js.LICENSE.txt": "/Fablizio/facebrutproject/static/js/2.1a19b3b2.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.73e533a0.js",
+    "static/js/2.1a19b3b2.chunk.js",
+    "static/css/main.c559fbf7.chunk.css",
+    "static/js/main.db999ff7.chunk.js"
+  ]
+}

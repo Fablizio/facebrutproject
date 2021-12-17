@@ -5,7 +5,6 @@ import { Post } from "../../components/Post";
 import { http } from "./../../libs/http";
 import styles from "./Home.module.scss";
 
-
 const friends = [];
 
 const messages = [];
@@ -16,17 +15,27 @@ const Home = () => {
   const [friendsPreview, setFriendsPreview] = useState(friends);
   const [allPosts, setAllPosts] = useState(posts);
   const [messagesPreview, setMessagesPreview] = useState(messages);
+
   // GETTER -> const friendPreview = [];
-  // SETTER -> friendPreview = [...];
+  // SETTER -> friendPreview = [...]
 
- // Esegui il codice quando il componente è inizializato
+  // Esegui del codice quando il componente è inizializzato (montato in pagina)
+  // componentDidMount() --> simile a "DOMContentLoaded" ma solo per il componente
+  useEffect(() => {
+    // fetch("https://edgemony-backend.herokuapp.com/friends?_limit=4")
+    //   .then((response) => response.json())
+    //   .then((data) => setFriendsPreview(data));
 
-   useEffect(() => {
-     http('/friends?_limit=4').then((data) => setFriendsPreview(data));
-     http('/messages?_limit=4').then((data) => setMessagesPreview(data));
-     http('/posts').then((data) => setAllPosts(data));
+    http("/friends?_limit=4").then((data) => setFriendsPreview(data));
+    http("/messages?_limit=4").then((data) => setMessagesPreview(data));
+    http("/posts").then((data) => setAllPosts(data));
 
-   }, []);
+    // Promise.all([
+    //   http("/friends?_limit=4"),
+    //   http("/messages?_limit=4"),
+    //   http("/posts")
+    // ]).then((data) => console.log(data[0]))
+  }, []);
 
   return (
     <section className={styles.home}>

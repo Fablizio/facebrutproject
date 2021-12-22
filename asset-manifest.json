@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Fablizio/facebrutproject/static/css/main.c559fbf7.chunk.css",
-    "main.js": "/Fablizio/facebrutproject/static/js/main.c50d0b11.chunk.js",
-    "main.js.map": "/Fablizio/facebrutproject/static/js/main.c50d0b11.chunk.js.map",
-    "runtime-main.js": "/Fablizio/facebrutproject/static/js/runtime-main.142eb546.js",
-    "runtime-main.js.map": "/Fablizio/facebrutproject/static/js/runtime-main.142eb546.js.map",
-    "static/js/2.1681b469.chunk.js": "/Fablizio/facebrutproject/static/js/2.1681b469.chunk.js",
-    "static/js/2.1681b469.chunk.js.map": "/Fablizio/facebrutproject/static/js/2.1681b469.chunk.js.map",
-    "static/js/3.1b07ccea.chunk.js": "/Fablizio/facebrutproject/static/js/3.1b07ccea.chunk.js",
-    "static/js/3.1b07ccea.chunk.js.map": "/Fablizio/facebrutproject/static/js/3.1b07ccea.chunk.js.map",
-    "index.html": "/Fablizio/facebrutproject/index.html",
-    "static/css/main.c559fbf7.chunk.css.map": "/Fablizio/facebrutproject/static/css/main.c559fbf7.chunk.css.map",
-    "static/js/2.1681b469.chunk.js.LICENSE.txt": "/Fablizio/facebrutproject/static/js/2.1681b469.chunk.js.LICENSE.txt"
+    "main.css": "/edgemony-react-2021/static/css/main.07ac13f4.chunk.css",
+    "main.js": "/edgemony-react-2021/static/js/main.b4c74f0e.chunk.js",
+    "main.js.map": "/edgemony-react-2021/static/js/main.b4c74f0e.chunk.js.map",
+    "runtime-main.js": "/edgemony-react-2021/static/js/runtime-main.58eec112.js",
+    "runtime-main.js.map": "/edgemony-react-2021/static/js/runtime-main.58eec112.js.map",
+    "static/js/2.6d0feb78.chunk.js": "/edgemony-react-2021/static/js/2.6d0feb78.chunk.js",
+    "static/js/2.6d0feb78.chunk.js.map": "/edgemony-react-2021/static/js/2.6d0feb78.chunk.js.map",
+    "static/js/3.148c7f07.chunk.js": "/edgemony-react-2021/static/js/3.148c7f07.chunk.js",
+    "static/js/3.148c7f07.chunk.js.map": "/edgemony-react-2021/static/js/3.148c7f07.chunk.js.map",
+    "index.html": "/edgemony-react-2021/index.html",
+    "static/css/main.07ac13f4.chunk.css.map": "/edgemony-react-2021/static/css/main.07ac13f4.chunk.css.map",
+    "static/js/2.6d0feb78.chunk.js.LICENSE.txt": "/edgemony-react-2021/static/js/2.6d0feb78.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.142eb546.js",
-    "static/js/2.1681b469.chunk.js",
-    "static/css/main.c559fbf7.chunk.css",
-    "static/js/main.c50d0b11.chunk.js"
+    "static/js/runtime-main.58eec112.js",
+    "static/js/2.6d0feb78.chunk.js",
+    "static/css/main.07ac13f4.chunk.css",
+    "static/js/main.b4c74f0e.chunk.js"
   ]
 }

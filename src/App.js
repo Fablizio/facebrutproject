@@ -1,13 +1,18 @@
-import { useReducer } from "react";
+import { useReducer, Suspense, lazy } from "react";
 import { Routes, Route } from "react-router-dom";
 
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import NewPost from "./pages/NewPost";
-import Messages from "./pages/Messages";
-import Friends from "./pages/Friends";
+import Loading from "./components/Loading";
+//import NewPost from "./pages/NewPost";
+//import Messages from "./pages/Messages";
+//import Friends from "./pages/Friends";
+//import Home from "./pages/Home";
 
-import Home from "./pages/Home";
+const Home = lazy(() => import("./pages/Home"));
+const NewPost = lazy(() => import("./pages/NewPost"));
+const Messages = lazy(() => import("./pages/Messages"));
+const Friends = lazy(() => import("./pages/Friends"));
 
 const INIT_STATE = {
   name: "Feisbrut",
@@ -40,10 +45,26 @@ function App() {
       </button>
 
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/new-post" element={<NewPost />} />
-        <Route path="/messages" element={<Messages />} />
-        <Route path="/friends" element={<Friends />} />
+        <Route path="/" element={
+          <Suspense fallback={<Loading/>}>
+            <Home />
+          </Suspense>
+        } />
+        <Route path="/new-post" element={
+          <Suspense fallback={<Loading/>}>
+            <NewPost />
+          </Suspense>
+        } />
+        <Route path="/messages" element={
+          <Suspense fallback={<Loading/>}>
+            <Messages />
+          </Suspense>
+        } />
+        <Route path="/friends" element={
+          <Suspense fallback={<Loading/>}>
+            <Friends />
+          </Suspense>
+        } />
       </Routes>
 
       <Footer />

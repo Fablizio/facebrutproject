@@ -7,8 +7,8 @@ import {greetings} from './../util';
 
 //questo è un descrittore del test e corrisponde quasi ad un linguaggio umano
 it('test greetings() function', () => {
-    const result = greetings('Floriana'); //questa result conterrà il risultato del saluto Floriana
-    expect(result).toBe('Hello dear Floriana'); // la funzione expect passa il valore che voglio testare e toBe il valore che vorrei avere
+    const result = greetings('Fabrizio'); //questa result conterrà il risultato del saluto Floriana
+    expect(result).toBe('Hello dear Fabrizio'); // la funzione expect passa il valore che voglio testare e toBe il valore che vorrei avere
 });
 //toBe testare valori semplici e toEqual per testare valori complessi
 
